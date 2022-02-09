@@ -1,0 +1,20 @@
+<?php
+return [
+    'Need to support GD or Imagick extension.' => '需要支持GD或Imagick扩展',
+    'Captcha imageHandle must be gd or imagick.' => '验证码图片驱动必须是gd或imagick。',
+    'Captcha imagePath must be dir.' => '验证码图片目录imagePath必须设置',
+    'Captcha imagePath is not readable.' => '验证码图片目录imagePath不可读',
+    'Captcha cacheHandel must be set.' => '必须设置验证码缓存驱动。',
+    'Captcha imagePath:"{imagePath}" no image file.' => '验证码图片目录:"{imagePath}" 没有图像文件',
+    'Captcha image save fail.' => 'Captcha image save fail.',
+    'Verification timed out.' => '验证超时',
+    'IP Invalid verification.' => 'IP 验证无效',
+    'UA Invalid verification.' => 'UA 验证无效',
+    'DS Invalid verification.' => '图片旋转角度验证无效',
+    'Please use jpeg and png or webp images.' => '请使用jpeg和png或webp图像',
+    'The path of the cached image cannot be empty.' => '缓存图片的路径不能为空',
+    'The degrees of rotation cannot be less than 30.' => '图片旋转角度不能小于30',
+    'The image height and width dimensions must be greater than 160px.' => '图片的高度和宽度尺寸必须大于160px',
+    'Unsupported outputType: "{outputType}".' => '图片输出类型不支持: "{outputType}"',
+    'verification error.' => '验证失败',
+];

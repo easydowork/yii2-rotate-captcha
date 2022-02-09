@@ -1,0 +1,28 @@
+{
+    "name": "easydowork/yii2-rotate-captcha",
+    "description": "基于isszz/rotate-captcha组件开发yii2图片旋转验证码",
+    "keywords": [
+        "captcha",
+        "rotate captcha",
+        "yii2"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "easydowork",
+            "email": "254364502@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-openssl": "*",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "easydowork\\rotateCaptcha\\" : "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

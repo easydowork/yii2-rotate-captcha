@@ -1,0 +1,20 @@
+<?php
+return [
+    'Need to support GD or Imagick extension.' => 'Need to support GD or Imagick extension.',
+    'Captcha imageHandle must be gd or imagick.' => 'Captcha imageHandle must be gd or imagick.',
+    'Captcha imagePath must be dir.' => 'Captcha imagePath must be dir.',
+    'Captcha imagePath is not readable.' => 'Captcha imagePath is not readable.',
+    'Captcha cacheHandel must be set.' => 'Captcha cacheHandel must be set.',
+    'Captcha imagePath:"{imagePath}" no image file.' => 'Captcha imagePath:"{imagePath}" no image file.',
+    'Captcha image save fail.' => 'Captcha image save fail.',
+    'Verification timed out.' => 'Verification timed out.',
+    'IP Invalid verification.' => 'IP Invalid verification.',
+    'UA Invalid verification.' => 'UA Invalid verification.',
+    'DS Invalid verification.' => 'DS Invalid verification.',
+    'Please use jpeg and png or webp images.' => 'Please use jpeg and png or webp images.',
+    'The path of the cached image cannot be empty.' => 'The path of the cached image cannot be empty.',
+    'The degrees of rotation cannot be less than 30.' => 'The degrees of rotation cannot be less than 30.',
+    'The image height and width dimensions must be greater than 160px.' => 'The image height and width dimensions must be greater than 160px.',
+    'Unsupported outputType: "{outputType}".' => 'Unsupported outputType: "{outputType}".',
+    'verification error.' => '验证失败',
+];
